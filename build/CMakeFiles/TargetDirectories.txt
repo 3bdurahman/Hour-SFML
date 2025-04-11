@@ -1,0 +1,3 @@
+D:/C++ Projects/Hour/build/CMakeFiles/hour.dir
+D:/C++ Projects/Hour/build/CMakeFiles/edit_cache.dir
+D:/C++ Projects/Hour/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.31)
+
+project(hour)
+
+find_package(SFML COMPONENTS graphics window system audio REQUIRED)
+
+set(SOURCE_DIR
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/Hour.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/main.cpp
+)
+
+add_executable(hour ${SOURCE_DIR})
+
+target_include_directories(hour PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/header)
+
+target_link_libraries(hour PRIVATE 
+    sfml-graphics 
+    sfml-system 
+    sfml-audio 
+    sfml-window
+)
